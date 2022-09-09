@@ -5,7 +5,7 @@
  *
  * Description: using the main function
  * this programm prints "exactly with proper grammar, but the outcome is a piece of art
- * REturn: 0
+ * Return: 0
  */
 int main(void)
 {
