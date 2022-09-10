@@ -1,18 +1,19 @@
 #include <stdio.h>
 
+
+
 /**
- * main - entry blcok
- * @void: no argument 
- * Return: 0
- * */
+* main - Prints the lowercase alphabet in reverse.
+* Return: Always 0.
+*/
 
 int main(void)
 
 {
-	char c;
-
-	for (c = 'z' ; c >= 'a'; c--)
-		putchar(c);
+	char letter;
+	for (letter = 'z'; letter >= 'a'; letter--)
+		putchar(letter);
 		putchar('\n');
 	return (0);
+
 }
