@@ -3,11 +3,12 @@
 /**
 
   * main - entry block
+
   * @void: no argument
- (*
+
   * Return: 0
 
-*/
+**/
 
 int main(void)
 
@@ -15,17 +16,17 @@ int main(void)
 
 	char c;
 
-	char C;
 
 
+	for (c = 'a' ; c <= 'z' ; c++)
 
-	for (c = 'a'; c <= 'z'; c++)
+	{
+
+		if (c != 'q' && c != 'e')
 
 		putchar(c);
 
-	for (C = 'A'; C <= 'Z'; C++)
-
-		putchar(C);
+	}
 
 	putchar('\n');
 
