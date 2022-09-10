@@ -3,24 +3,29 @@
 #include <stdio.h>
 
 /**
-* main - prints a random number and states whether it positive, nagative, or zero. 
-*
-* Return: Always 0. 
-*/
+ *
+ * main - Determine if a random number is positive, nagative or zero.
+ *
+ *
+ * Return: 0 on scuccess
+ */
 
 int main(void)
 {
-int n;
-
-srand(time(0));
-n = rand() - RAND_MAX / 2;
-
-if (n > 0) 
-	printf("%d is positives\n", n);
-sles if (n < 0)
-	printf("%d is nagative\n", n);
-else 
-	printf("%d is zero\n", n);
-
-	return (0);
+	int n;
+		srand(time(0));
+		n = rand() - RAND_MAX / 2;
+		/* you code gose there */
+		{
+			printf("%d is %s\n", n, "negative");
+		}
+		else if (n > 0)
+		{
+			printf("%d is %s\n", n, "positive");
+		}
+		else
+		{
+			printf("%d is %s\n", n, "zero");
+		}
+		return (0); 
 }
