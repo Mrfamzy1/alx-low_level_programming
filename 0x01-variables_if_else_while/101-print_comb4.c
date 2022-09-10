@@ -3,61 +3,80 @@
 
 
 /**
-
-* main - entry point
-
-*
-
-* Return: always 0 (success)
-
-*/
+ *
+ * * main - loop through variables a,b,c printing digits
+ *
+ * *
+ *
+ * * Return: print to stdout all possible different combinations of three digits
+ *
+ * **/
 
 int main(void)
 
 {
 
-int a;
+	int a = '0';
 
-int b;
+	int b;
+
+	int c;
 
 
 
-a = 0;
+	while (a <= '7')
 
-while (a <= 9)
+	{
 
-{
+		b = a + 1;
 
-b = 0;
+		while (b <= '8')
 
-while (b <= 9)
+		{
 
-{
+			c = b + 1;
 
-putchar(0 + a);
+			while (c <= '9')
 
-putchar(0 + b);
+			{
 
-if (a != 9 || b != 9)
+				putchar(a);
 
-{
+				putchar(b);
 
-putchar(,);
+				putchar(c);
 
-putchar( );
+				if (a == '7' && b == '8' && c == '9')
+
+				{
+
+					putchar('\n');
+
+				}
+
+				else
+
+				{
+
+					putchar(',');
+
+					putchar(' ');
+
+				}
+
+				c++;
+
+			}
+
+			b++;
+
+		}
+
+		a++;
+
+	}
+
+	return (0);
 
 }
 
-b++;
-
-}
-
-a++;
-
-}
-
-putchar(n);
-
-return (0);
-
-}
