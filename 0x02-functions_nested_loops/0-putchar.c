@@ -1,17 +1,15 @@
-#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
- * print_alphabet - Entry point
- *
- * Description: program that prints _putchar, followed by a new line
- * Return: 0;
+ * main - Entry point
+ * Description: Write a program that prints _putchar, followed by a new line.
+ * Return: 0
  */
-void print_alphabet(void)
+
+int main(void)
 {
-	int j;
-	for (j = 'a'; j <= 'z'; j++)
-	{
-	_putchar(j);
-	}
-	_putchar('\n');
+	printf("_putchar\n");
+	return (0);
 }
