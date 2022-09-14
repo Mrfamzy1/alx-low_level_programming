@@ -6,7 +6,7 @@
  * @c: is the int that will use for the agrgument 
  * Return: 0
  */
-int _abs(int)
+int _abs(int c)
 {
 	if (c > 0 || c == 0)
 	{
