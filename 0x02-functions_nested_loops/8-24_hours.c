@@ -1,13 +1,11 @@
 #include "main.h"
 /**
- * jack_bauer - unction that prints every minute 
- * n of the day of Jack Bauer, starting from 00:00 to 23:59
+ * jack_bauer - unction that prints every minut of the day of Jack Bauer, starti
+ * ng from 00:00 to 23:59, min loop conuts mins, while hour loop counts hours
  * and resets mins 
  * Return: 0
  */
-
 void jack_bauer(void)
-
 {
 	int hours = 0;
 	int minutes = 0;
