@@ -1,7 +1,5 @@
 #include "main.h"
-
 /**
- *
  * jack_bauer - unction that prints every minute 
  * n of the day of Jack Bauer, starting from 00:00 to 23:59
  * and resets mins 
