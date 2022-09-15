@@ -6,6 +6,7 @@
  * @a: b -  Variable
  * Return: Always 0.
  */
+
 int mul(int a, int b)
 {
 
