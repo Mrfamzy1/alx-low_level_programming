@@ -22,4 +22,6 @@ a = b;
 b = c;
 c = a + b;
 }
+printf("%d\n", counter);
+return (0);
 }
