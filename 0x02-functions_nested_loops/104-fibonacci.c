@@ -1,25 +1,32 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include "main.h"
+
 /**
- * main - entry point
- * Return: 0
+ * main - main function
+ * Return: nothing
  */
+
 int main(void)
 {
-	int i, n;
-	int t1 = 0, t2 = 1;
-	int nextTerm = t1 + t2;
+	int counter = 2;
 
-	printf("Enter the number of terms: ");
-	scanf("%d", &n);
-	printf("Fibonacci Series: %d, %d, ", t1, t2)
-	for (i = 3; i <= n; ++i)
+	float a = 1;
+	float b = a + 1;
+	float c = a + b;
+
+	printf("%.0f, ", a);
+	printf("%.0f, ", b);
+	while (counter < 98)
 	{
-		printf("%d, ", nextTerm);
-		t1 = t2;
-		t2 = nextTerm;
-		nextTerm = t1 + t2;
-	 }
-	  return 0;
+		counter++;
+		printf("%.0f", c);
+		a = b;
+		b = c;
+		c = a + b;
+		if (counter < 98)
+		{
+			printf(", ");
+		}
+	}
+	printf("\n");
+	return (0);
 }
