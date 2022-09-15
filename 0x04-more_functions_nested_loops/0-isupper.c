@@ -1,17 +1,17 @@
 #include "main.h"
 
 /**
- * print_alphabet - Entry point
- * Return: Always 0 (Success)
+ * _isupper -  checks for uppercase character.
+ * @c: c -  Variable
+ * Return: Always 0
  */
 
-void print_alphabet(void)
+int _isupper(int c)
 {
-	char i;
 
-	for (i = 'A'; i <= 'Z'; i++)
+	if (c >= 65 && c <= 90)
 	{
-		_putchar(i);
+		return (1);
 	}
-	_putchar('\n');
+	return (0);
 }
