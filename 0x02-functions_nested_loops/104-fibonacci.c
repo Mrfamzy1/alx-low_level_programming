@@ -2,10 +2,24 @@
 #include <stdlib.h>
 #include "main.h"
 /**
- * main - Entry point
+ * main - entry point
  * Return: 0
  */
 int main(void)
 {
-	return (0);
+	int i, n;
+	int t1 = 0, t2 = 1;
+	int nextTerm = t1 + t2;
+
+	printf("Enter the number of terms: ");
+	scanf("%d", &n);
+	printf("Fibonacci Series: %d, %d, ", t1, t2)
+	for (i = 3; i <= n; ++i)
+	{
+		printf("%d, ", nextTerm);
+		t1 = t2;
+		t2 = nextTerm;
+		nextTerm = t1 + t2;
+	 }
+	  return 0;
 }
