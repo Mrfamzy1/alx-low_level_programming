@@ -3,7 +3,7 @@
 /**
  * mul -  checks for checks for a digit (0 through 9).
  * @a: a -  Variable
- * @a: b -  Variable
+ * @b: b -  Variable
  * Return: Always 0.
  */
 
