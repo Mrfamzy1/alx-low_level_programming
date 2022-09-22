@@ -1,5 +1,5 @@
-0x06. C - More pointers, arrays and strings
+0x06. C - More pointers, arrays and strings ALX
 
 by 
 
-James Afamefuna Ozoagu 
+Ozoagu James
